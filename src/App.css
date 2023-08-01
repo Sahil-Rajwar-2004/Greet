@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.input-class{
+  min-width: 30rem;
+  max-width: 20rem;
+  min-height: 2rem;
+}
+
+.msg{
+  font-size: 5rem;
+  text-transform: capitalize;
+  user-select: none;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.msg:hover{
+  transform: scale(1.1);
+}
